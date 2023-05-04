@@ -1,2 +1,2 @@
-# python_fundamentals-Hello-World
+# python_fundamentals
 Basic of Python
