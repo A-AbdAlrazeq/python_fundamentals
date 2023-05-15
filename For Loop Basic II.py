@@ -167,3 +167,15 @@ def Reverse4(list):
 
 
 print(Reverse4([37, 2, 1, -9]))
+
+
+def Reverse5(list):
+    # 'float' object cannot be interpreted as an integer to fix this error we use //2 to return int or we can use round(len(list)/2)
+    for i in range(0, len(list)//2):
+        temp = list[i]
+        list[i] = list[len(list)-i-1]
+        list[len(list)-i-1] = temp
+    return list
+
+
+print(Reverse5([37, 2, 1, -9]))
